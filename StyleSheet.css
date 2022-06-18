@@ -111,10 +111,21 @@ body{
     margin-bottom: 30px;
 }
 
+.paraStyle li{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 15pt;
+    margin-right: 10px
+}
+
 .generalContent{
     font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 15pt;
     margin: 20px;
+}
+
+.generalContent a, .generalContent a:visited{
+    color: #b55b29;
+    text-decoration: none;
 }
 
 .generalBold{
@@ -144,17 +155,45 @@ body{
     margin-bottom: 30px;
 }
 
-.skillsStyle{
+#skillsStyle{
     flex-basis: 65%;
     height: fit-content;
     background-color: white;
     border: solid gainsboro;
     margin-bottom: 30px;
+    height: 720px
+}
+
+#skillsStyle li{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 15pt;
+    margin-right: 10px
+}
+
+#skillsStyle2{
+    flex-basis: 65%;
+    height: fit-content;
+    background-color: white;
+    border: solid gainsboro;
+    margin-bottom: 30px;
+    height: 720px;
+}
+
+#skillsStyle2 li{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 12pt;
+    margin-right: 10px
 }
 
 .generalContentSmall{
     font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
-    font-size: 12pt;
+    font-size: 13pt;
+    margin: 20px;
+}
+
+.generalContentXS{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 10pt;
     margin: 20px;
 }
 
@@ -165,8 +204,18 @@ body{
     margin: 20px;
 }
 
-#jobSource{
-    width: 100%;
+#jobSource a, #jobSource a:visited{
+    color: #b55b29;
+    text-decoration: none;
+}
+
+
+#jobContainer{
+    width: 95%;
+    margin: auto;
+    border-style: solid;
+    border-color: gainsboro;
+    box-shadow: 0 0 15px 4px #cccccc;
 }
 
 #jobImage{
