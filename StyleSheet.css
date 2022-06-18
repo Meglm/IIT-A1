@@ -1,3 +1,4 @@
+
 /*
 .sticky {
     position: fixed;
@@ -18,29 +19,25 @@ body{
     background: #ede2c5;
     margin: 0;
     min-height: 100%;
+    background: url("Images/indexPage/A1-Wallpaper.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
-header{
-    background: antiquewhite;
+.header{
+    background: #F8F8F8;
     padding: 20px;
+    box-shadow: 5px 5px 15px 4px #cccccc;
 }
 
-.mainContainer{
-    display: flex;
-    flex-flow: column;
-    height: 2000px;
-    width: 70%;
-    margin: auto;
-}
-
-main{
-    background-color: floralwhite;
-    border: none;
-    display: block;
-    position: relative;
-    font-family: "Corbel", "Times New Roman", Serif;
-    text-decoration: none;
-    height: available;
+.pageTitle{
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 40pt;
+    color: #475132;
 }
 
 .navContainer{
@@ -52,7 +49,6 @@ main{
     text-align: center;
     list-style-type: none;
     display: inline-block;
-    background-color: antiquewhite;
     position: relative;
 }
 
@@ -63,30 +59,60 @@ main{
     padding-right: 40px;
 }
 
+.navBarList a{
+    text-decoration: none;
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 20pt;
+    color: #b55b29;
+}
+
 .navBarList a:hover{
-    color: honeydew;
+    color: #771300;
 }
 
 .navBarList a:active{
     color: red;
 }
 
-.navBarList a:link, .navBarList a:visited{
-    font-color: black;
+.mainContainer{
+    display: flex;
+    flex-flow: column;
+    height: 100%;
+    width: 70%;
+    margin: auto;
+    background-color: #F8F8F8;
+    padding: 50px;
+    margin-top: 50px;
 }
 
-.navBarList a{
-    text-decoration: none;
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
-    font-size: 20pt;
-    color: black;
+.paraContainer{
+    display: flex;
 }
 
-.pageTitle{
-    margin: 0;
-    padding: 20px;
-    text-align: center;
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
-    font-size: 40pt;
+#indexPara1{
+    flex-basis: 65%;
+    height: 300px;
+    margin-right: 40px;
 }
+
+.headingTitle{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 30pt;
+    color: #475132;
+}
+
+#profileImage{
+    flex-basis: 30%;
+    height: 300px;
+}
+
+#avatar{
+    display: inline-block;
+    width: 300px;
+    border-radius: 70%;
+    box-shadow: 1px 1px 15px 8px #cccccc;
+    float: right;
+}
+
+
 
