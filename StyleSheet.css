@@ -29,6 +29,7 @@ body{
     background: #F8F8F8;
     padding: 20px;
     box-shadow: 5px 5px 15px 4px #cccccc;
+    padding-top: unset;
 }
 
 .pageTitle{
@@ -68,10 +69,11 @@ body{
 
 .navBarList a:hover{
     color: #771300;
+    font-weight: bold;
 }
 
 .navBarList a:active{
-    color: red;
+    color: #ede2c5;
 }
 
 .mainContainer{
@@ -83,22 +85,40 @@ body{
     background-color: #F8F8F8;
     padding: 50px;
     margin-top: 50px;
+    box-shadow: 0 0 15px #cccccc;
 }
 
 .paraContainer{
     display: flex;
 }
 
-#indexPara1{
-    flex-basis: 65%;
-    height: 300px;
-    margin-right: 40px;
-}
-
 .headingTitle{
     font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 30pt;
     color: #475132;
+    margin: 20px;
+}
+
+#indexPara1{
+    margin-right: 40px;
+}
+
+.paraStyle{
+    flex-basis: 65%;
+    height: 300px;
+    background-color: white;
+    border: solid #b55b29;
+    margin-bottom: 30px;
+}
+
+.generalContent{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 15pt;
+    margin: 20px;
+}
+
+.generalBold{
+    font-weight: bold;
 }
 
 #profileImage{
@@ -110,9 +130,55 @@ body{
     display: inline-block;
     width: 300px;
     border-radius: 70%;
-    box-shadow: 1px 1px 15px 8px #cccccc;
+    box-shadow: 0 0 15px 4px #cccccc;
     float: right;
 }
 
+.paraStyle{
+    flex-basis: 65%;
+    height: 300px;
+    background-color: white;
+    border: solid #b55b29;
+    margin-bottom: 30px;
+}
 
+.skillsStyle{
+    flex-basis: 65%;
+    height: fit-content;
+    background-color: white;
+    border: solid #b55b29;
+    margin-bottom: 30px;
+}
+
+.generalContentSmall{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 12pt;
+    margin: 20px;
+}
+
+.subHeadingTitle{
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
+    font-size: 20pt;
+    color: #475132;
+    margin: 20px;
+}
+
+#advocateImg{
+    display: inline-block;
+    width: 200px;
+}
+
+.profileTest{
+    width: 30%;
+}
+
+#visualImg{
+    display: inline-block;
+    width: 300px;
+}
+
+#iQImg{
+    display: inline-block;
+    width: 400px;
+}
 
