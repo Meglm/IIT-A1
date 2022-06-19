@@ -1,16 +1,4 @@
 
-/*
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-}
-
-.sticky + body {
-    padding-top: 102px;
-}
-*/
-
 html{
     height: 100%;
     font-family: "Avenir Next LT Pro", "Calibri Light", "Serif", serif;
