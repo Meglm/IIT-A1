@@ -13,6 +13,7 @@
 
 html{
     height: 100%;
+    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif", serif;
 }
 
 body{
@@ -36,7 +37,6 @@ body{
     margin: 0;
     padding: 20px;
     text-align: center;
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 40pt;
     color: #475132;
 }
@@ -61,10 +61,7 @@ body{
 }
 
 .navBarList a{
-    text-decoration: none;
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 20pt;
-    color: #b55b29;
 }
 
 .navBarList a:hover{
@@ -73,6 +70,19 @@ body{
 }
 
 .navBarList a:active{
+    color: #ede2c5;
+}
+
+a{
+    text-decoration: none;
+    color: #b55b29;
+}
+
+a:visited{
+    color: #b55b29;
+}
+
+a:active{
     color: #ede2c5;
 }
 
@@ -93,7 +103,6 @@ body{
 }
 
 .headingTitle{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 30pt;
     color: #475132;
     margin: 20px;
@@ -103,29 +112,14 @@ body{
     margin-right: 40px;
 }
 
-.paraStyle{
-    flex-basis: 65%;
-    height: 300px;
-    background-color: white;
-    border: solid #b55b29;
-    margin-bottom: 30px;
-}
-
 .paraStyle li{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 15pt;
     margin-right: 10px
 }
 
 .generalContent{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 15pt;
     margin: 20px;
-}
-
-.generalContent a, .generalContent a:visited{
-    color: #b55b29;
-    text-decoration: none;
 }
 
 .generalBold{
@@ -161,11 +155,9 @@ body{
     background-color: white;
     border: solid gainsboro;
     margin-bottom: 30px;
-    height: 720px
 }
 
 #skillsStyle li{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 15pt;
     margin-right: 10px
 }
@@ -176,39 +168,34 @@ body{
     background-color: white;
     border: solid gainsboro;
     margin-bottom: 30px;
-    height: 720px;
 }
 
 #skillsStyle2 li{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 12pt;
     margin-right: 10px
 }
 
 .generalContentSmall{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 13pt;
     margin: 20px;
 }
 
 .generalContentXS{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 10pt;
     margin: 20px;
 }
 
 .subHeadingTitle{
-    font-family: "Avenir Next LT Pro", "Calibri Light", "Serif";
     font-size: 20pt;
     color: #475132;
     margin: 20px;
 }
 
-#jobSource a, #jobSource a:visited{
+.subHeadingTitleLink{
+    font-size: 20pt;
     color: #b55b29;
-    text-decoration: none;
+    margin: 20px;
 }
-
 
 #jobContainer{
     width: 95%;
@@ -222,24 +209,41 @@ body{
     width:100%;
 }
 
+.imgContainer{
+    width:100%;
+}
+
+.imgProperties{
+    width: 100%;
+}
+
 #advocateImg{
     display: inline-block;
     width: 300px;
     margin: auto;
 }
 
-.profileTest{
+.profileTest {
     width: 30%;
-    margin-right: 20px;
+    background-color: white;
+    border: solid gainsboro;
+    margin-bottom: 30px;
 }
 
 #visualImg{
-    display: inline-block;
-    width: 300px;
+    margin: 50px;
 }
 
 #iQImg{
+    margin: 50px;
+}
+
+#projectImage{
     display: inline-block;
-    width: 350px;
+    width: 250px;
+    border-radius: 70%;
+    border: 5px solid white;
+    box-shadow: 0 0 15px 4px #cccccc;
+    float: right;
 }
 

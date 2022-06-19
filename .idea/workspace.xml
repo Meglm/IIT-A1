@@ -20,9 +20,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5adb7d8-1513-4e28-a456-e515717be7fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Images/indexPage/References" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/jobPage/References" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/profilePage/IQModified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/profilePage/References" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/profilePage/VisualModified.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/projectPage/References" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/projectPage/shelfInspire.PNG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/profilePage/IQ_distribution.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Images/profilePage/Visual.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Interest.html" beforeDir="false" afterPath="$PROJECT_DIR$/Interest.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Job.html" beforeDir="false" afterPath="$PROJECT_DIR$/Job.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/Profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/StyleSheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/StyleSheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -77,7 +88,8 @@
       <updated>1655199256509</updated>
       <workItem from="1655199261466" duration="8929000" />
       <workItem from="1655282443536" duration="1120000" />
-      <workItem from="1655515369097" duration="28434000" />
+      <workItem from="1655515369097" duration="30988000" />
+      <workItem from="1655602797038" duration="11839000" />
     </task>
     <servers />
   </component>
@@ -100,15 +112,19 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2636" y="417" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1655616589713">
+      <screen x="1920" y="96" width="1920" height="1040" />
+    </state>
+    <state x="2636" y="417" key="#com.intellij.fileTypes.FileTypeChooser/1920.96.1920.1040/0.0.1920.1040@1920.96.1920.1040" timestamp="1655616589713" />
     <state x="688" y="154" key="FileChooserDialogImpl" timestamp="1655204322245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="688" y="154" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1655204322245" />
-    <state x="2689" y="529" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655546037618">
+    <state x="2689" y="529" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1655557503689">
       <screen x="1920" y="96" width="1920" height="1040" />
     </state>
     <state x="2689" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@1920.0.1920.1040" timestamp="1655202983183" />
-    <state x="2689" y="529" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@1920.96.1920.1040" timestamp="1655546037618" />
+    <state x="2689" y="529" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.96.1920.1040/0.0.1920.1040@1920.96.1920.1040" timestamp="1655557503689" />
     <state x="505" y="0" width="1431" height="1028" key="dock-window-1" timestamp="1655516457548">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
